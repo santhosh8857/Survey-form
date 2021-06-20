@@ -1,0 +1,163 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button */
+
+.btn {
+  text-decoration: none;
+  border: 1px #ccc solid;
+  border-radius: 2px;
+  padding: 7px;
+  color: #333;
+  background: #f4f4f4;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.btn:hover {
+  background-color: #f8f8f8;
+}
+
+/* Form Container */
+
+#container {
+  margin: 7px auto;
+  max-width:700px;
+  padding: 0px 20px;
+}
+
+/* Name container */
+
+.fcontainer{
+  display: flex;
+}
+
+.fcontainer label {
+  margin-top: 3px;
+}
+
+/* Form Styling */
+
+.form-wrap {
+  
+  padding: 10px;
+}
+
+/* Label */
+
+.block {
+  font-weight: 700;
+  font-size:16px;
+  display: block;
+  margin: 9px 0;
+}
+
+.Lblock {
+  font-size: 11px;
+  display: block;
+}
+
+.move-right {
+  margin-left:12px;
+}
+/* form-items (input, p, text-area)*/
+
+.form-items p {
+  margin: 10px 0;
+  color: #222;
+}
+
+.form-items input[type="text"],
+.form-items input[type="email"],
+.form-items textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 196px;
+  outline: none;
+}
+
+.form-items input[type="email"] {
+  width: 405px;
+}
+
+.form-items textarea {
+  padding: 5px 5px;
+  width:100%;
+  margin: 15px 0;
+}
+
+.form-items input:focus,
+.form-items textarea:focus{
+  border: 1px solid #aaa;
+}
+
+.suggestions {
+  margin-top:10px;
+}
+
+/* Required */
+
+.req::after {
+  content: " *";
+  color: #f02020;
+}
+
+/* Star ratings */
+
+.rating input {
+  display: none;
+}
+
+.rating div {
+  color: coral;
+  margin-top: 5px;
+}
+
+.rating input + label {
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor:pointer;
+}
+
+.rating input:checked +label ~label{
+  color: #838383;
+}
+
+/* Satisfaction & Recommendation */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+} 
+
+tr {
+  margin-bottom: 30px;
+}
+
+tr:nth-child(even){
+  background-color: #f7f9f9;
+}
+
+td {
+  padding: 7px 0;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+.row-heading {
+  text-align: left;
+}
+
+
+
+
+
+
+
